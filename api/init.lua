@@ -33409,7 +33409,7 @@ return {
                     {
                       name = "point",
                       type = "Vec3",
-                      descriptio = "The point."
+                      description = "The point."
                     }
                   },
                   returns = {
