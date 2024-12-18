@@ -15,7 +15,7 @@ return {
       description = 'The z coordinate.'
     },
     point = {
-      type = 'number',
+      type = 'Vec3',
       description = 'The point.'
     }
   },
