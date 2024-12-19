@@ -7,17 +7,17 @@ return {
 
     The Buffer must have a single field with the `u16`, `u32`, `index16`, or `index32` type.
   ]],
-  arguments = {},
-  returns = {
+  arguments = {
     buffer = {
       type = 'Buffer',
       description = 'The index buffer.'
     }
   },
+  returns = {},
   variants = {
     {
-      arguments = {},
-      returns = { 'buffer' }
+      arguments = { 'buffer' },
+      returns = {}
     }
   },
   notes = [[
