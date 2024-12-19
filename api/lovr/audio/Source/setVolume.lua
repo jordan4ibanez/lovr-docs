@@ -10,13 +10,13 @@ return {
     units = {
       type = 'VolumeUnit',
       default = [['linear']],
-      description = 'The units of the value.'
+      description = 'The unit of the value.'
     }
   },
   returns = {},
   variants = {
     {
-      arguments = { 'volume', 'units' },
+      arguments = { 'volume', 'unit' },
       returns = {}
     }
   },
