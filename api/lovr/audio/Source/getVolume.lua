@@ -6,7 +6,7 @@ return {
     units = {
       type = 'VolumeUnit',
       default = [['linear']],
-      description = 'The units to return (linear or db).'
+      description = 'The unit to return (linear or db).'
     }
   },
   returns = {
@@ -17,7 +17,7 @@ return {
   },
   variants = {
     {
-      arguments = { 'units' },
+      arguments = { 'unit' },
       returns = { 'volume' }
     }
   }
