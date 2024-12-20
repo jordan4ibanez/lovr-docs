@@ -33,7 +33,7 @@ return {
       description = 'The sample rate, in Hz.'
     },
     contents = {
-      type = '*',
+      type = 'Blob',
       default = 'nil',
       description = [[
         A Blob containing raw audio samples to use as the initial contents, 'stream' to create an
